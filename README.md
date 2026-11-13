@@ -1,23 +1,15 @@
 # Google-Colab-Programs
 Compilation of Google Colab Notebooks.
 
+
 ---
 
-## Project handbook
+## AI-maintained project notes (secondary — 2026-11-13)
 
-- [Activity log](ACTIVITY_LOG.md) · [Feature upgrade plan](FEATURE_UPGRADE_PLAN.md)
-- [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
-- [README quality checklist](README_QUALITY_CHECKLIST.md)
-- [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+This section supplements the maintainer-authored README above; it does not replace or certify the original claims.
 
-## Understanding the project
-
-### In plain language
-
-A collection intended to contain Google Colab notebooks that teach and demonstrate practical programming, data science and machine-learning workflows.
-
-### Technical and research view
-
-The current repository tree contains README.md only. There are no committed .ipynb notebooks yet, so the collection is currently a placeholder rather than a working notebook library.
-
-For future work, see [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+- The current source tree, notebooks, runtime data and tests are the implementation source of truth. Planned work and draft PRs are not shipped features.
+- Preserve original datasets and notebook inputs. Never silently replace real data with synthetic examples; label and isolate fixtures.
+- Record dataset source, licence, collection date, transformations, environment and random seeds for reproducibility.
+- Verify commands, notebook execution and claims against the exact current commit before public use.
+- See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for independent audit and data-preservation rules.
