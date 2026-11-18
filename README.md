@@ -30,3 +30,10 @@ This section supplements the maintainer-authored README above; it does not repla
 3. Execute notebooks from a clean Colab runtime and record successful/failed cells before describing them as verified.
 
 **Verification status:** source-tree inspection only; no Colab notebook or test execution verified.
+
+---
+
+## Examples Used
+- Running a reproducible Python notebook in Google Colab
+- Exploring GPU-accelerated model training
+- Loading and preprocessing a research dataset
