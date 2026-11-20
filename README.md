@@ -2,6 +2,13 @@
 Compilation of Google Colab Notebooks.
 
 
+## Run status
+
+**No notebook is currently available to launch from this repository's default branch.** The README describes a collection of Google Colab notebooks, but the inspected branch contains no `.ipynb` files. There is therefore no Colab notebook link or local application to open yet.
+
+Add the notebooks with prerequisites, data sources, and expected outputs before documenting Colab launch links.
+
+
 ---
 
 ## AI-maintained project notes (secondary — 2026-11-13)
